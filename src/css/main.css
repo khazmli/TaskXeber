@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 30px;
+  position: fixed; 
+  top: -6px;
+  transition: top 0.3s;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: larger;
+}
+
+.blank1_h1{
+  display: flex; justify-content: center; color:blue;
+  background-color: white;
+  position: relative;
+  top: 15vh;
+
+}
+
+.navbar2 {
+  width: 100%;
+  height: 30px;
+  background-color: whitesmoke;
+position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  top: 50px;
+}
+
+.nav2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav2 a {
+  color: blue;
+  font-weight: 700;
+}
+
+.imgmain {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 15vh;
+}
+.maindiv {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.text {
+  font-size: large;
+  font-weight: 700;
+  color: rgb(255, 230, 0);
+  background-color: blue;
+  margin-right: 9vh;
+}
+
+body {
+  background-size: cover;
+  background-image: url("/src/img/3d-world-news-background-loop-free-video.jpg");
+}
+
+.blank2{
+  width: 100%;
+  height: 100vh;
+}
+
+.bl2_img1{
+  display: flex;
+  justify-content: center;
+}
+
+.bl2_textbox{
+ padding: 5vh;
+ color: orange;
+
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  padding:20px ;
+  color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
